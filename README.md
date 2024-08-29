@@ -11,6 +11,8 @@ Data: Historical financial data including SPY ETF prices, technical indicators, 
 
 Documentation: Detailed project report and supplementary documentation.
 
+![Architecture:](https://github.com/Nayan48/SPY-Trend-Prediction-with-Deep-Learning-Models/blob/main/Project%20Architecture%20DL%20SPY.png)
+
 Steps:
 
 1. Feature Engineering:
@@ -20,7 +22,7 @@ Feature Reduction: Reduced 355 initial features to 24 key features using Recursi
 
 2. Exploratory Data Analysis (EDA):
 Conducted comprehensive EDA to identify relationships between features and the target variable.
-Addressed class imbalance by defining the target based on a 0.20% threshold in daily returns.
+Addressed class imbalance by weights and defining the target based on a 0.20% threshold in daily returns.
 
 3. Data Handling & Sequence Generation:
 Data Handling: Processed the dataset by ensuring all features were properly scaled using Min-Max scaling. This step was crucial for preparing the data for input into the LSTM models.
