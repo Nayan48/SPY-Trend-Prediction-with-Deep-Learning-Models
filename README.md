@@ -6,9 +6,12 @@ This project is part of the Certificate in Quantitative Finance (CQF) Final Proj
 Project Structure
 
 Code: Python scripts for data processing, feature engineering, model building, and backtesting.
+
 Data: Historical financial data including SPY ETF prices, technical indicators, Treasury yields, and other asset data from July 2017 to July 2024.
+
 Documentation: Detailed project report and supplementary documentation.
-Features
+
+Steps:
 
 1. Feature Engineering:
 Data Sources: Collected daily OHLC data for the SPY ETF, technical indicators, other assets data (GOLD, UUP, USO, VIX) and macroeconomic data (e.g., 2-Year and 10-Year Treasury Yields).
